@@ -2,21 +2,31 @@
 <html lang="PT-BR">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Meu Perfil</title>
-        <link rel="stylesheet" href="" />
+        <link rel="stylesheet" href="style/index.css" />
     </head>
     <body>
         <header>
-           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contato.html">Contato</a></li>
-           </ul>
+            <nav>
+                <ul >
+                    <li><a href="index.html" class="btn">Home</a></li>
+                    <li><a href="contato.html" class="btn">Contato</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
             <h1>Quem sou eu?</h1>
-            <img src="assets/img/110050225.jpeg" alt="Imagem Lucas Git Hub" height="200" width="200" style="border-radius: 50px;">
+
+            <div class="container">
+            <img
+                src="assets/img/8dde6e3d4863f635b01181c3c4b37c89.jpg"
+                alt="Imagem Lucas Git Hub"
+                height="250"
+                width="200"
+            />
+            <div >
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 porro perferendis adipisci exercitationem, reprehenderit iure.
@@ -38,10 +48,29 @@
                 sunt earum ratione consequatur nesciunt! Eaque recusandae
                 aperiam, temporibus autem numquam aliquam.
             </p>
+        </div>
+        </div>
             <h2>Por onde comecei</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ldl_CvMGmEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+            <div>
+            <iframe
+                class="video"
+                src="https://www.youtube.com/embed/Ldl_CvMGmEA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+            ></iframe>
+        </div>
         </main>
-        <footer></footer>
+        <footer style="background-color: #333030;">
+            
+            <div class="conta">
+                <a href=""><img class="tm-30" src="./assets/img/facebook (3).png" alt="Imagem do facebook"></a>
+                <a href=""><img class="tm-30" src="./assets/img/github.png" alt="Imagem do github"></a>
+                <a href=""><img class="tm-30" src="./assets/img/linkedin.png" alt="Imagem do Linkedin"></a>
+                <p class="centro">Todos os direitos reservados &copy</p>
+            </div>
+            
+        </footer>
     </body>
 </html>

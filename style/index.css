@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color:blanchedalmond; */
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 3%;
+  }
+.conta{
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.centro{
+    text-align: center;
+    margin: 3%;
+    
+}
+
+  .tm-30{
+    height: 30px;
+    width: 30px;
+  }
+
+  .space{
+    padding: 0 5px;
+  }
+
+
+nav ul {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+  }
+  
+  nav a {
+    text-decoration: none;
+    
+  }
+
+  .btn{
+    /* background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px 100px;
+    margin-top: 50px; */
+    position: relative;
+    display: block;
+    color: rgb(9, 10, 10);
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid rgb(9, 10, 10);
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+
+  .btn:hover{
+    color: rgb(0, 255, 47);
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+
+  .container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: aliceblue;
+  }
+
+  .video {
+    width: 70%;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    display: block;
+  }
+
+
