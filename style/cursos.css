@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Tahoma",sans-serif;
+    background-color: blanchedalmond;
+    color: rgb(9, 10, 10);
+    
+}
+
+
+nav ul {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+  }
+  
+  nav a {
+    text-decoration: none;
+    
+  }
+
+.btn-nav{
+    /* background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px 100px;
+    margin-top: 50px; */
+    position: relative;
+    display: block;
+    color: rgb(9, 10, 10);
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid rgb(9, 10, 10);
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+
+  .btn-nav:hover{
+    color: rgb(0, 255, 47);
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+
+h2{
+    text-align: center;
+}
+
+.col{
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 1.5%;
+}
+
+.price-box{
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+}
+
+.price-box .header {
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;
+    
+   }
+
+   .price-box .header.header-green {
+    background: #4caf50;
+   }
+
+
+
+   .price-box li{
+    padding: 20px;
+    border-bottom: 20px solid #eee;
+    text-align: center;
+   }
+
+   .btn {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+   }
+
+
+ @media(max-width:868px){
+    .col{
+        width: 90%;
+    }
+ }
+
+
+
